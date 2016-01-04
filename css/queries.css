@@ -1,0 +1,119 @@
+@media screen and (max-width:1200px) {
+	.figcaption-content {
+		width: 440px;
+		margin-left: -220px
+	}
+	.screenshots ul li,
+	.freebies ul li {
+		width: 50%
+	}
+}
+@media screen and (max-width:1024px) {
+	.cd-top {
+		height: 60px;
+		width: 60px;
+		right: 30px;
+		bottom: 30px
+	}
+}
+@media screen and (max-width:991px) {
+	.intro-text p {
+		padding: 0 30px;
+		margin-bottom: 40px
+	}
+	.expertise figure {
+		overflow: hidden;
+		margin: 0 0 30px 0
+	}
+	.expertise h1 {
+		padding: 0 20px
+	}
+	.skillset-wrapper {
+		margin-bottom: 40px
+	}
+	.contact p {
+		width: 100%
+	}
+	ul.footer-socials {
+		position: static;
+		margin: 30px 0
+	}
+	@media screen and (max-width:800px) {
+	}
+	@media screen and (max-width:640px) {
+		.hero h1 {
+			font-size: 40px;
+			font-weight: 500;
+			line-height: 50px
+		}
+		.hero {
+			position: relative;
+			min-height: 700px;
+			background: rgb(40, 70, 102) url('../img/aa.jpg') no-repeat center center;
+			background-size: cover;
+			-webkit-background-size: cover;
+			color: #fff
+		}
+		header {
+			min-height: 700px;
+			height: 700px
+		}
+		section.contact {
+			background: url('../img/contact-bg.jpg') no-repeat center center;
+			background-size: cover;
+			-webkit-background-size: cover;
+		}
+		section.freebies-intro {
+			background: url(../img/freebies-bg.jpg) no-repeat center center;
+			-webkit-background-size: cover;
+			background-size: cover
+		}
+		.skillset-icon {
+			display: block;
+			margin: 0 auto 20px
+		}
+		.skillset-content {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			text-align: center
+		}
+		.screenshots ul li,
+		.freebies ul li {
+			width: 100%
+		}
+		.cd-top {
+			right: 20px;
+			bottom: 20px
+		}
+		.freebies figcaption .caption-content {
+			margin-top: -45px;
+		}
+	}
+	@media screen and (max-width:480px) {
+		.intro {
+			text-align: center
+		}
+		.avatar {
+			position: static;
+			margin: 0 auto 30px
+		}
+		.intro h1 {
+			margin: 0 0 30px 0
+		}
+		.intro p {
+			margin-left: 0
+		}
+		.overlay ul li a {
+			font-size: 25px
+		}
+		.overlay ul li {
+			margin-bottom: 0
+		}
+	}
+	@media screen and (max-width:320px) {
+		section.quote {
+			background: url('../img/design.jpg') no-repeat center center;
+			background-size: cover
+		}
+	}
